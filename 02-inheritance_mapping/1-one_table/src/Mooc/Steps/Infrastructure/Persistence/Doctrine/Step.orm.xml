@@ -4,7 +4,7 @@
                   xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
                           https://www.doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
 
-    <entity name="CodelyTv\Mooc\Steps\Domain\Step" table="steps" inheritance-type="JOINED">
+    <entity name="CodelyTv\Mooc\Steps\Domain\Step" table="steps" inheritance-type="SINGLE_TABLE">
         <discriminator-column name="type" type="string" />
         <discriminator-map>
             <discriminator-mapping value="exercise" class="CodelyTv\Mooc\Steps\Domain\Exercise\ExerciseStep" />
