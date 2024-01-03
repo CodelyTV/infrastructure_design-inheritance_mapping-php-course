@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-  🐳 Infrastructure Modeling: Mapping Inheritance in PHP
+  🐳 Infrastructure Design: Mapping Inheritance in PHP
 </h1>
 
 <p align="center">
