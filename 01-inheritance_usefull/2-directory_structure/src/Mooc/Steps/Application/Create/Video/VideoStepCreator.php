@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Mooc\Steps\Application\Create;
+namespace CodelyTv\Mooc\Steps\Application\Create\Video;
 
 use CodelyTv\Mooc\Steps\Domain\StepRepository;
 
