@@ -80,18 +80,10 @@ CREATE TABLE courses_counter (
 INSERT INTO courses_counter (id, total, existing_courses)
 VALUES ("cdf26d7d-3deb-4e8c-9f73-4ac085a8d6f3", 0, "[]");
 
-CREATE TABLE steps (
+CREATE TABLE steps_video (
 	id CHAR(36) NOT NULL,
 	title VARCHAR(255) NOT NULL,
 	duration INT NOT NULL,
-	type VARCHAR(255) NOT NULL,
-	PRIMARY KEY (id)
-) ENGINE = InnoDB
-  DEFAULT CHARSET = utf8mb4
-  COLLATE = utf8mb4_unicode_ci;
-
-CREATE TABLE steps_video (
-	id CHAR(36) NOT NULL,
 	url VARCHAR(255) NOT NULL
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
@@ -99,6 +91,8 @@ CREATE TABLE steps_video (
 
 CREATE TABLE steps_exercise (
 	id CHAR(36) NOT NULL,
+	title VARCHAR(255) NOT NULL,
+	duration INT NOT NULL,
 	content VARCHAR(255) NOT NULL
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
@@ -106,6 +100,8 @@ CREATE TABLE steps_exercise (
 
 CREATE TABLE steps_quiz (
 	id CHAR(36) NOT NULL,
+	title VARCHAR(255) NOT NULL,
+	duration INT NOT NULL,
 	questions TEXT NOT NULL
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4

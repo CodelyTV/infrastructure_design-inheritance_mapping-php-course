@@ -5,6 +5,11 @@
                           https://www.doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
 
     <entity name="CodelyTv\Mooc\Steps\Domain\Quiz\QuizStep" table="steps_quiz">
+        <id name="id" type="step_id" column="id" length="36" />
+
+        <embedded name="title" class="CodelyTv\Mooc\Steps\Domain\StepTitle" use-column-prefix="false" />
+        <embedded name="duration" class="CodelyTv\Mooc\Steps\Domain\StepDuration" use-column-prefix="false" />
+
         <field name="questions" type="quiz_step_questions" column="questions" />
     </entity>
 </doctrine-mapping>
