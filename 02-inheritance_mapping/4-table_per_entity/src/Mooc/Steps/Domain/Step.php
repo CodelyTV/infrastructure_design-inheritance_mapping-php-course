@@ -10,7 +10,7 @@ abstract class Step extends AggregateRoot
 {
 	public function __construct(
 		public readonly StepId $id,
-		private readonly StepTitle $title,
-		private readonly StepDuration $duration
+		protected readonly StepTitle $title,
+		protected readonly StepDuration $duration
 	) {}
 }
