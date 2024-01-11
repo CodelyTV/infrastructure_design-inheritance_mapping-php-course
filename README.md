@@ -19,5 +19,5 @@
 
 <p align="center">
   <a href="https://github.com/CodelyTV/infra_modeling-inheritance_mapping-php-course/stargazers">Stars are welcome 😊</a><br><br>
-  Course (Spanish): <a href="https://pro.codely.com/library/infra_modeling-inheritance_mapping-php-course/about/">Modelado de infraestructura: Mapeo de herencia en PHP</a>
+  Course (Spanish): <a href="https://pro.codely.com/library/diseno-de-infraestructura-mapeo-de-herencia-en-php-212155/561726/path/">Modelado de infraestructura: Mapeo de herencia en PHP</a>
 </p>
